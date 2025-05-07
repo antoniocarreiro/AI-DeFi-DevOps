@@ -1,0 +1,56 @@
+# PowerShell logs
+*.log
+*.txt
+*.log.?
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Sensitive information
+*.key
+*apikey*
+*secret*
+*credential*
+
+# Generated files (except examples)
+/Strategies/*
+!/Strategies/.gitkeep
+/Logs/*
+!/Logs/.gitkeep
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Module manifest
+*.psd1
+*.psm1
+*.psproj
+
+# PowerShell Studio files
+*.psf
+*.pss
+*.ps1xml
+
+# PSScriptAnalyzer results
+PSScriptAnalyzerResults.xml
+
+# Local history files
+.history/
+.ionide/
+
+# VSCode specific files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
